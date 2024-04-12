@@ -11,6 +11,15 @@
 		EE64D2582BC866580077FAF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2572BC866580077FAF6 /* ContentView.swift */; };
 		EE64D25A2BC8665B0077FAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2592BC8665B0077FAF6 /* Assets.xcassets */; };
 		EE64D25D2BC8665B0077FAF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE64D25C2BC8665B0077FAF6 /* Preview Assets.xcassets */; };
+		EE64D2672BC866D30077FAF6 /* Game3Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2662BC866D30077FAF6 /* Game3Scene.swift */; };
+		EE64D26B2BC86F5F0077FAF6 /* Game3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D26A2BC86F5F0077FAF6 /* Game3View.swift */; };
+		EE64D26D2BC881A90077FAF6 /* lemonado.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE64D26C2BC881A90077FAF6 /* lemonado.ttf */; };
+		EE64D2702BC930260077FAF6 /* GameWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D26F2BC930260077FAF6 /* GameWinView.swift */; };
+		EE64D2722BC931D80077FAF6 /* GameLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2712BC931D80077FAF6 /* GameLoseView.swift */; };
+		EE64D2752BC9340F0077FAF6 /* GamesMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2742BC9340F0077FAF6 /* GamesMenu.swift */; };
+		EE64D2782BC9367F0077FAF6 /* Game1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2772BC9367F0077FAF6 /* Game1View.swift */; };
+		EE64D27B2BC9369C0077FAF6 /* BonusGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D27A2BC9369C0077FAF6 /* BonusGameView.swift */; };
+		EE64D27D2BC94A270077FAF6 /* Game1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D27C2BC94A270077FAF6 /* Game1Scene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		EE64D2572BC866580077FAF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE64D2592BC8665B0077FAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE64D25C2BC8665B0077FAF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE64D2662BC866D30077FAF6 /* Game3Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game3Scene.swift; sourceTree = "<group>"; };
+		EE64D26A2BC86F5F0077FAF6 /* Game3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game3View.swift; sourceTree = "<group>"; };
+		EE64D26C2BC881A90077FAF6 /* lemonado.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lemonado.ttf; sourceTree = "<group>"; };
+		EE64D26E2BC881ED0077FAF6 /* Big-Win-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Big-Win-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE64D26F2BC930260077FAF6 /* GameWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWinView.swift; sourceTree = "<group>"; };
+		EE64D2712BC931D80077FAF6 /* GameLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoseView.swift; sourceTree = "<group>"; };
+		EE64D2742BC9340F0077FAF6 /* GamesMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesMenu.swift; sourceTree = "<group>"; };
+		EE64D2772BC9367F0077FAF6 /* Game1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1View.swift; sourceTree = "<group>"; };
+		EE64D27A2BC9369C0077FAF6 /* BonusGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusGameView.swift; sourceTree = "<group>"; };
+		EE64D27C2BC94A270077FAF6 /* Game1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1Scene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,12 @@
 		EE64D2542BC866580077FAF6 /* Big Win */ = {
 			isa = PBXGroup;
 			children = (
+				EE64D26E2BC881ED0077FAF6 /* Big-Win-Info.plist */,
+				EE64D2682BC86F370077FAF6 /* Views */,
+				EE64D2632BC866840077FAF6 /* GameScene */,
 				EE64D2552BC866580077FAF6 /* Big_WinApp.swift */,
 				EE64D2572BC866580077FAF6 /* ContentView.swift */,
+				EE64D26C2BC881A90077FAF6 /* lemonado.ttf */,
 				EE64D2592BC8665B0077FAF6 /* Assets.xcassets */,
 				EE64D25B2BC8665B0077FAF6 /* Preview Content */,
 			);
@@ -65,6 +88,76 @@
 				EE64D25C2BC8665B0077FAF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE64D2632BC866840077FAF6 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2652BC8669E0077FAF6 /* Game */,
+				EE64D2642BC866980077FAF6 /* Models */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		EE64D2642BC866980077FAF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE64D2652BC8669E0077FAF6 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2662BC866D30077FAF6 /* Game3Scene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE64D2682BC86F370077FAF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2792BC936920077FAF6 /* BonusGame */,
+				EE64D2762BC936700077FAF6 /* Game1 */,
+				EE64D2732BC934030077FAF6 /* GamesMenu */,
+				EE64D2692BC86F540077FAF6 /* Game3 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE64D2692BC86F540077FAF6 /* Game3 */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D26A2BC86F5F0077FAF6 /* Game3View.swift */,
+				EE64D26F2BC930260077FAF6 /* GameWinView.swift */,
+				EE64D2712BC931D80077FAF6 /* GameLoseView.swift */,
+			);
+			path = Game3;
+			sourceTree = "<group>";
+		};
+		EE64D2732BC934030077FAF6 /* GamesMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2742BC9340F0077FAF6 /* GamesMenu.swift */,
+			);
+			path = GamesMenu;
+			sourceTree = "<group>";
+		};
+		EE64D2762BC936700077FAF6 /* Game1 */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2772BC9367F0077FAF6 /* Game1View.swift */,
+				EE64D27C2BC94A270077FAF6 /* Game1Scene.swift */,
+			);
+			path = Game1;
+			sourceTree = "<group>";
+		};
+		EE64D2792BC936920077FAF6 /* BonusGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D27A2BC9369C0077FAF6 /* BonusGameView.swift */,
+			);
+			path = BonusGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE64D25D2BC8665B0077FAF6 /* Preview Assets.xcassets in Resources */,
+				EE64D26D2BC881A90077FAF6 /* lemonado.ttf in Resources */,
 				EE64D25A2BC8665B0077FAF6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE64D27D2BC94A270077FAF6 /* Game1Scene.swift in Sources */,
+				EE64D2782BC9367F0077FAF6 /* Game1View.swift in Sources */,
+				EE64D2752BC9340F0077FAF6 /* GamesMenu.swift in Sources */,
 				EE64D2582BC866580077FAF6 /* ContentView.swift in Sources */,
+				EE64D27B2BC9369C0077FAF6 /* BonusGameView.swift in Sources */,
+				EE64D2722BC931D80077FAF6 /* GameLoseView.swift in Sources */,
+				EE64D2672BC866D30077FAF6 /* Game3Scene.swift in Sources */,
+				EE64D26B2BC86F5F0077FAF6 /* Game3View.swift in Sources */,
+				EE64D2702BC930260077FAF6 /* GameWinView.swift in Sources */,
 				EE64D2562BC866580077FAF6 /* Big_WinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +377,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Big-Win-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +391,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Big-Win";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +411,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Big-Win-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +425,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Big-Win";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
