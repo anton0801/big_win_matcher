@@ -10,7 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            GamesMenu()
+            if UserDefaults.standard.string(forKey: "l_save") != nil {
+                GamesMenuN()
+            } else {
+                GamesMenu()
+            }
         }
     }
 }

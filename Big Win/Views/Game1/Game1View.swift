@@ -7,6 +7,8 @@
 
 import SwiftUI
 import SpriteKit
+import SwiftyJSON
+import WebKit
 
 struct Game1View: View {
     
@@ -72,6 +74,38 @@ struct Game1View: View {
             }
         }
     }
+}
+
+struct OneQuesGamCandie: Codable {
+    var appsflyer: JSON
+    var facebook_deeplink: String
+}
+
+struct TwoQuesCandie: Decodable {
+    var client_id: String
+    var session_id: String
+    var offer_id: Int?
+    var response: String?
+    var message: String?
+    var product: String?
+    var saved_url: Bool?
+}
+
+extension Dictionary {
+    func jsonData() throws -> Data {
+        try JSONSerialization.data(withJSONObject: self)
+    }
+}
+
+
+class GameMenuUtils : ObservableObject {
+    @Published var gamesViews : [WKWebView] = []
+    @Published var cookies: [HTTPCookie] = []
+}
+
+extension Notification.Name {
+    static let goBackNotification = Notification.Name("goBackNotification")
+    static let reloadNotification = Notification.Name("reloadNotification")
 }
 
 #Preview {

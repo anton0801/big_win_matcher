@@ -6,5 +6,69 @@
 	<array>
 		<string>lemonado.ttf</string>
 	</array>
+    
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Candies Drop app uses device tracking to personalize ads and improve gameplay. Your data is anonymized and used only to enhance your experience. You can manage tracking preferences in settings. Your privacy is important to us.</string>
+    
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>processing</string>
+        <string>remote-notification</string>
+    </array>
+
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.com.flightstuntappgame.FlightStunt.backgroundProccess</string>
+        <string>group.com.flightstuntappgame.FlightStunt.onesignal</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb399171182969293</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>399171182969293</string>
+    <key>FacebookClientToken</key>
+    <string>0621482f09d65a58a04716b8d1022f8f</string>
+    <key>FacebookDisplayName</key>
+    <string>Candies Drop</string>
+    <key>ITSEncryptionExportComplianceCode</key>
+    <string>NO</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+   
+    <key>NSCameraUsageDescription</key>
+    <string>Let this app access camera</string>
+    
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>target=&quot;_blank</string>
+        <string>target</string>
+        <string>#</string>
+        <string>target:blank</string>
+        <string>target</string>
+        <string>localhost</string>
+        <string>about:blank</string>
+        <string>about</string>
+        <string>http</string>
+        <string>whatsapp</string>
+        <string>viber</string>
+        <string>tg</string>
+        <string>https</string>
+    </array>
 </dict>
 </plist>

@@ -20,6 +20,16 @@
 		EE64D2782BC9367F0077FAF6 /* Game1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2772BC9367F0077FAF6 /* Game1View.swift */; };
 		EE64D27B2BC9369C0077FAF6 /* BonusGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D27A2BC9369C0077FAF6 /* BonusGameView.swift */; };
 		EE64D27D2BC94A270077FAF6 /* Game1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D27C2BC94A270077FAF6 /* Game1Scene.swift */; };
+		EEE619382BD12E3E00D0FC9C /* Game2Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE619372BD12E3E00D0FC9C /* Game2Scene.swift */; };
+		EEE6193B2BD13E2300D0FC9C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6193A2BD13E2300D0FC9C /* SplashView.swift */; };
+		EEE6193E2BD1409A00D0FC9C /* InfoGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6193D2BD1409A00D0FC9C /* InfoGamesView.swift */; };
+		EEE619402BD14F3500D0FC9C /* InfoRulesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6193F2BD14F3500D0FC9C /* InfoRulesData.swift */; };
+		EEE619432BD15D8A00D0FC9C /* Game2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE619422BD15D8A00D0FC9C /* Game2View.swift */; };
+		EEE619462BD15F3D00D0FC9C /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = EEE619452BD15F3D00D0FC9C /* AppsFlyerLib */; };
+		EEE619492BD15F4800D0FC9C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = EEE619482BD15F4800D0FC9C /* SwiftyJSON */; };
+		EEE6194C2BD15F5400D0FC9C /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = EEE6194B2BD15F5400D0FC9C /* OneSignal */; };
+		EEE619552BD15F7800D0FC9C /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = EEE619542BD15F7800D0FC9C /* FacebookCore */; };
+		EEE6195B2BD1641700D0FC9C /* GamesMenuN.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6195A2BD1641700D0FC9C /* GamesMenuN.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +48,12 @@
 		EE64D2772BC9367F0077FAF6 /* Game1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1View.swift; sourceTree = "<group>"; };
 		EE64D27A2BC9369C0077FAF6 /* BonusGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusGameView.swift; sourceTree = "<group>"; };
 		EE64D27C2BC94A270077FAF6 /* Game1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1Scene.swift; sourceTree = "<group>"; };
+		EEE619372BD12E3E00D0FC9C /* Game2Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2Scene.swift; sourceTree = "<group>"; };
+		EEE6193A2BD13E2300D0FC9C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EEE6193D2BD1409A00D0FC9C /* InfoGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoGamesView.swift; sourceTree = "<group>"; };
+		EEE6193F2BD14F3500D0FC9C /* InfoRulesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRulesData.swift; sourceTree = "<group>"; };
+		EEE619422BD15D8A00D0FC9C /* Game2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2View.swift; sourceTree = "<group>"; };
+		EEE6195A2BD1641700D0FC9C /* GamesMenuN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesMenuN.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE619492BD15F4800D0FC9C /* SwiftyJSON in Frameworks */,
+				EEE619552BD15F7800D0FC9C /* FacebookCore in Frameworks */,
+				EEE619462BD15F3D00D0FC9C /* AppsFlyerLib in Frameworks */,
+				EEE6194C2BD15F5400D0FC9C /* OneSignal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				EE64D2662BC866D30077FAF6 /* Game3Scene.swift */,
+				EEE619372BD12E3E00D0FC9C /* Game2Scene.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -117,6 +138,9 @@
 		EE64D2682BC86F370077FAF6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EEE619412BD15D8000D0FC9C /* Game2 */,
+				EEE6193C2BD1408900D0FC9C /* InfoGames */,
+				EEE619392BD13E1700D0FC9C /* Splash */,
 				EE64D2792BC936920077FAF6 /* BonusGame */,
 				EE64D2762BC936700077FAF6 /* Game1 */,
 				EE64D2732BC934030077FAF6 /* GamesMenu */,
@@ -139,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				EE64D2742BC9340F0077FAF6 /* GamesMenu.swift */,
+				EEE6195A2BD1641700D0FC9C /* GamesMenuN.swift */,
 			);
 			path = GamesMenu;
 			sourceTree = "<group>";
@@ -160,6 +185,31 @@
 			path = BonusGame;
 			sourceTree = "<group>";
 		};
+		EEE619392BD13E1700D0FC9C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6193A2BD13E2300D0FC9C /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		EEE6193C2BD1408900D0FC9C /* InfoGames */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6193D2BD1409A00D0FC9C /* InfoGamesView.swift */,
+				EEE6193F2BD14F3500D0FC9C /* InfoRulesData.swift */,
+			);
+			path = InfoGames;
+			sourceTree = "<group>";
+		};
+		EEE619412BD15D8000D0FC9C /* Game2 */ = {
+			isa = PBXGroup;
+			children = (
+				EEE619422BD15D8A00D0FC9C /* Game2View.swift */,
+			);
+			path = Game2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +226,12 @@
 			dependencies = (
 			);
 			name = "Big Win";
+			packageProductDependencies = (
+				EEE619452BD15F3D00D0FC9C /* AppsFlyerLib */,
+				EEE619482BD15F4800D0FC9C /* SwiftyJSON */,
+				EEE6194B2BD15F5400D0FC9C /* OneSignal */,
+				EEE619542BD15F7800D0FC9C /* FacebookCore */,
+			);
 			productName = "Big Win";
 			productReference = EE64D2522BC866580077FAF6 /* Big Win.app */;
 			productType = "com.apple.product-type.application";
@@ -204,6 +260,12 @@
 				Base,
 			);
 			mainGroup = EE64D2492BC866580077FAF6;
+			packageReferences = (
+				EEE619442BD15F3D00D0FC9C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				EEE619472BD15F4800D0FC9C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				EEE6194A2BD15F5400D0FC9C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				EEE6194F2BD15F7800D0FC9C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = EE64D2532BC866580077FAF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,15 +293,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE619382BD12E3E00D0FC9C /* Game2Scene.swift in Sources */,
 				EE64D27D2BC94A270077FAF6 /* Game1Scene.swift in Sources */,
 				EE64D2782BC9367F0077FAF6 /* Game1View.swift in Sources */,
+				EEE619402BD14F3500D0FC9C /* InfoRulesData.swift in Sources */,
 				EE64D2752BC9340F0077FAF6 /* GamesMenu.swift in Sources */,
 				EE64D2582BC866580077FAF6 /* ContentView.swift in Sources */,
+				EEE6193B2BD13E2300D0FC9C /* SplashView.swift in Sources */,
 				EE64D27B2BC9369C0077FAF6 /* BonusGameView.swift in Sources */,
 				EE64D2722BC931D80077FAF6 /* GameLoseView.swift in Sources */,
 				EE64D2672BC866D30077FAF6 /* Game3Scene.swift in Sources */,
 				EE64D26B2BC86F5F0077FAF6 /* Game3View.swift in Sources */,
+				EEE6195B2BD1641700D0FC9C /* GamesMenuN.swift in Sources */,
+				EEE619432BD15D8A00D0FC9C /* Game2View.swift in Sources */,
 				EE64D2702BC930260077FAF6 /* GameWinView.swift in Sources */,
+				EEE6193E2BD1409A00D0FC9C /* InfoGamesView.swift in Sources */,
 				EE64D2562BC866580077FAF6 /* Big_WinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +524,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEE619442BD15F3D00D0FC9C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = exactVersion;
+				version = 6.13.1;
+			};
+		};
+		EEE619472BD15F4800D0FC9C /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		EEE6194A2BD15F5400D0FC9C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		EEE6194F2BD15F7800D0FC9C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEE619452BD15F3D00D0FC9C /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE619442BD15F3D00D0FC9C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		EEE619482BD15F4800D0FC9C /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE619472BD15F4800D0FC9C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		EEE6194B2BD15F5400D0FC9C /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE6194A2BD15F5400D0FC9C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+		EEE619542BD15F7800D0FC9C /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE6194F2BD15F7800D0FC9C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE64D24A2BC866580077FAF6 /* Project object */;
 }
